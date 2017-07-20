@@ -1,0 +1,22 @@
+{
+  "name": "wreck-promisify",
+  "version": "1.0.0",
+  "description": "wreck object wrapped into promise feature",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wreck",
+    "hapijs",
+    "wreck-promise",
+    "wreck-promisify",
+    "hapijs-wreck-promise"
+  ],
+  "author": "Katturaja Mookkan",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "wreck": "^12.2.2"
+  }
+}
