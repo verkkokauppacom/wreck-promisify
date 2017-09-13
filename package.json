@@ -1,19 +1,19 @@
 {
   "name": "wreck-promisify",
   "version": "1.0.0",
-  "description": "wreck object wrapped into promise feature",
+  "description": "Wreck object wrapped in Bluebird promise.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
   "type": "git",
-  "url": "https://github.com/katturajam/wreck-promisify.git"
+  "url": "https://github.com/verkkokauppacom/wreck-promisify"
  },
   "bugs": {
-    "url": "https://github.com/katturajam/wreck-promisify/issues"
+    "url": "https://github.com/verkkokauppacom/wreck-promisify/issues"
   }, 
-  "homepage": "https://github.com/katturajam/wreck-promisify",
+  "homepage": "https://github.com/verkkokauppacom/wreck-promisify",
   "keywords": [
     "wreck",
     "hapijs",
@@ -22,9 +22,16 @@
     "hapijs-wreck-promise"
   ],
   "author": "Katturaja Mookkan",
+  "collaborators": [
+    {
+      "name": "Toni Suokas",
+      "email": "toni.suokas@verkkokauppa.com",
+      "homepage": "https://www.verkkokauppa.com"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.0",
-    "wreck": "^12.2.2"
+    "wreck": "^12.5.0"
   }
 }
