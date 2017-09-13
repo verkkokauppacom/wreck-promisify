@@ -30,7 +30,8 @@ Options are passed to wreck as is. See [Wreck documentation](https://github.com/
 Response interface is an object with following fields:
  - _body_ - Response body as a string
  - _headers_ - Response headers
- - _state_ - Response state (if available)
+ - _statusCode_ - Response status code
+ - _statusMessage_ - Response status message
 
 
 
